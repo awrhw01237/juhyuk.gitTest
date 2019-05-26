@@ -1,0 +1,62 @@
+---
+title: 'R Markdown Practice 0526'
+author : "Juhyuk Hong"
+date : "2019, 05, 26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```
+# 아주 큰 제목(Title)
+## 큰 제목(Main section)
+### 작은 제목(Sub-section)
+#### 아주 작은 제목(Sub-sub section)
+```
+# 아주 큰 제목
+## 큰 제목
+### 작은 제목
+#### 아주 작은 제목
+```
+다음 줄로 넘기는건 엔터 두번
+```
+다음 줄로 넘기는건
+
+엔터 두번
+
+```
+<> 는 하이퍼링크
+```
+<http://rmarkdown.rstudio.com>.
+
+```
+**something** 는 볼드체
+_something_ 는 이탤릭
+```
+**Knit** 
+ 
+_document_ 
+
+```
+위에 {r something} 하면 그거에 대한 r코드 박스 나오고 실행결과 밑에 나옴
+```
+```
+echo=FALSE: R 코드가 출력되는 것을 방지
+results="hide": 출력결과물이 문서에 뿌려지지 않도록 방지.
+eval=FALSE: 코드는 출력되지만, 평가되어 실행되는 것은 방지.
+warning=FALSE, message=FALSE: 경고와 메시지 출력을 숨김.
+fig.height, fig.width: 인치 단위로 그림 크기 높이와 폭을 지정.
+```
+
+```{r cars}
+summary(cars)
+```
+
+
+```{r}
+plot(pressure)
+```
+
+

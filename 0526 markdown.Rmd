@@ -55,8 +55,15 @@ summary(cars)
 ```
 
 
+```
+Rmarkdown 단축키
+[ctrl] + [shift] + m : 파이프 라인 %>% 생성
+[ctrl] + [shift] + h : Working directory 변경
+[ctrl] + [alt] + i : R code chunk 생성
+```
+
 ```{r}
 plot(pressure)
 ```
 
-
+추가된 메세지 0526 9시02ㅂ
